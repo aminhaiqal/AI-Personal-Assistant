@@ -1,0 +1,33 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+
+# Python environment
+venv/
+env/
+*.env
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs and other generated files
+logs/
+*.log
+
+# Database
+db.sqlite3
+
+# Compiled Python files
+*.pyc
+
+# Local configuration
+config.yml
+config.json
+
+# Ignore everything in the "media" directory, except for these file types
+media/*
+!media/*.png
+!media/*.jpg
+!media/*.jpeg
